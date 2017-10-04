@@ -1,4 +1,4 @@
 let a;
 a=["a","b","c","d"];
-a.pop();
-$("#response").html(a);
+let lastElement = a[a.length - 1];
+$("#response").html(lastElement);
