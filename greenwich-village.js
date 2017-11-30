@@ -12,7 +12,7 @@ theVillageMap.setView([40.72357, -73.99097], 14.5);
 let md;
 md = window.markdownit({html: true}).use(window.markdownitFootnote);
 $.ajax({
-  url: "greenwich-village.md",
+  url: "https://github.com/ajw547/javascripting-english-major-project/blob/master/greenwich-village.md",
   success: function(markdown){
     let html;
     html = md.render(markdown);
