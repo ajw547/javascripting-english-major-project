@@ -19,3 +19,9 @@ $.ajax({
     $("#content").html(html);
   }
 });
+
+let charlesStreet, charlesStreetLine, charlesStreetMarker;
+charlesStreet=[[40.73532, -74.00043],[40.73383, -74.01006]];
+charlesStreetLine=L.polyline(charlesStreet, {color: "#BE3626"}
+).addTo(theVillageMap);
+ 
