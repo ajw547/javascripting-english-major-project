@@ -19,6 +19,7 @@ $.ajax({
     $("#content").html(html);
   }
 });
+$("#tabs-nav a[href='#greenwich-village']").tab("show");
 
 let charlesStreet, charlesStreetLine, charlesStreetMarker;
 charlesStreet=[[40.73532, -74.00043],[40.73383, -74.01006]];

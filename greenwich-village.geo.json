@@ -1,0 +1,13 @@
+{
+  "type":"Feature",
+  "geometry":{
+    "type":"Point",
+    "coordinates":[40.73479, -74.00401]
+  },
+  "properties":{
+    "name":"Charles Street",
+    "html":"Charles Street",
+    "tab":"charles-street",
+    "wikipedia":"https://en.wikipedia.org/wiki/Charles_Street_"
+  }
+}

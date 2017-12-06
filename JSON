@@ -1,1 +1,0 @@
-$.getJSON("https://the-javascripting-english-major.org/prologue.json", callback);
