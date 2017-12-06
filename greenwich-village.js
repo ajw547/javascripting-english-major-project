@@ -11,7 +11,7 @@ theVillageMap.setView([40.73084, -73.99745], 14.5);
 
 let projectFeatures;
 $.getJSON("https://ajw547.github.io/javascripting-english-major-project/greenwich-village.geo.json",function(data){
-let projectLayer;
+
   projectFeatures=data.features.map(function(feature){
     return{
       name:feature.properties.name,
@@ -21,7 +21,7 @@ let projectLayer;
       latLng:L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])
     };
    });
-   projectLayer = L.featureGroup(projectFeatures.map(function(feature){
+   let projectLayer = L.featureGroup(projectFeatures.map(function(feature){
      return L.marker(feature.latLng);
      })
    );
