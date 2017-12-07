@@ -32,3 +32,6 @@ projectFeatures=data.features.map(function(feature){
   };
 });
 });
+
+let charlesStreetMarker;
+charlesStreetMarker=L.marker([feature.latLng]);
