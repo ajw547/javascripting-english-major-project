@@ -13,7 +13,7 @@
         "tab":"charles-street",
         "wikipedia":"https://en.wikipedia.org/wiki/Charles_Street_"
       }
-    }
+    },
     {"type":"Feature",
       "geometry": {
         "type":"Point",
@@ -26,7 +26,7 @@
         "tab":"washington-square",
         "wikipedia":"https://en.wikipedia.org/wiki/Washington_Square_Park"
       }
-    }
+    },
     {"type":"Feature",
       "geometry":{
         "type":"Point",
@@ -38,7 +38,7 @@
         "tab":"sheridan-square",
         "wikipedia":"http://gvshp.org/blog/2011/08/01/the-history-of-sheridan-square/"
       }
-    }
+    },
     {"type":"Feature",
       "geometry":{
         "type":"Point",
@@ -50,7 +50,6 @@
         "tab":"tenth-street",
         "wikipedia":"https://en.wikipedia.org/wiki/List_of_numbered_streets_in_Manhattan#10th_to_13th_Streets"
       }
-
     }
   ]
 }
