@@ -19,3 +19,13 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
     tileLayer.addTo(map);
 map.setView([40.73084, -73.99745], 14.5);
+
+$.getJSON("https://ajw547.github.io/javascripting-english-major-project/greenwich-village.geo.json", function(data){
+  return{
+    name:feature.properties.name,
+    html:feature.properties.html,
+    tab:feature.properties.tab,
+    wikipedia:feature.properties.wikipedia,
+    latLng:L.latLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0])
+  };
+});
