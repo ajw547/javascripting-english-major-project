@@ -21,6 +21,8 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
 map.setView([40.73084, -73.99745], 14.5);
 
 $.getJSON("https://ajw547.github.io/javascripting-english-major-project/project.geo.json", function(data){
+let projectLayer, projectFeatures;
+projectFeatures=data.features.map(function(feature){
   return{
     name:feature.properties.name,
     html:feature.properties.html,
@@ -28,4 +30,5 @@ $.getJSON("https://ajw547.github.io/javascripting-english-major-project/project.
     wikipedia:feature.properties.wikipedia,
     latLng:L.latLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0])
   };
+});
 });
