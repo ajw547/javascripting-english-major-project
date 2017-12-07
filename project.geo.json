@@ -14,5 +14,43 @@
         "wikipedia":"https://en.wikipedia.org/wiki/Charles_Street_"
       }
     }
+    {"type":"Feature",
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-73.99747, 40.73082]
+
+      },
+      "properties":{
+        "name":"Washington Square",
+        "html":"Washington Square",
+        "tab":"washington-square",
+        "wikipedia":"https://en.wikipedia.org/wiki/Washington_Square_Park"
+      }
+    }
+    {"type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-74.00214, 40.73301]
+      },
+      "properties":{
+        "name":"Sheridan Square",
+        "html":"Sheridan Square",
+        "tab":"sheridan-square",
+        "wikipedia":"http://gvshp.org/blog/2011/08/01/the-history-of-sheridan-square/"
+      }
+    }
+    {"type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-74.00384, 40.73415]
+      },
+      "properties":{
+        "name":"Tenth Street",
+        "html":"Tenth Street",
+        "tab":"tenth-street",
+        "wikipedia":"https://en.wikipedia.org/wiki/List_of_numbered_streets_in_Manhattan#10th_to_13th_Streets"
+      }
+
+    }
   ]
 }
