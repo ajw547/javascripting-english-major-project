@@ -47,9 +47,9 @@ projectFeatures = data.features.map(function(feature){
     // Create circle markers.
     return L.marker(feature.latLng, {
       // Use square root because circle areas are proportional to r^2.
-      radius: 10,
-      color: "#d33682",
-      fillColor: "#d33682"
+      //radius: 10,
+      //color: "#d33682",
+      //fillColor: "#d33682"
       // attach popupContent to the circleMarker as the popup.
     });//.bindPopup(popupContent);
   }));
