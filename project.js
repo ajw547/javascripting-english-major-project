@@ -32,6 +32,7 @@ projectFeatures = data.features.map(function(feature){
     name:feature.properties.name,
     html:feature.properties.html,
     tab:feature.properties.tab,
+    marker:feature.properties.marker,
     wikipedia:feature.properties.wikipedia,
     latLng:L.latLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0])
   };
@@ -59,7 +60,7 @@ projectFeatures = data.features.map(function(feature){
     }).on("click", markerOnClick);
   function markerOnClick()
   {
-    $("#markercontent").html(feature.properties.marker);
+    $("#markercontent").html(feature.marker);
   }
   }));
   projectLayer.addTo(map);
