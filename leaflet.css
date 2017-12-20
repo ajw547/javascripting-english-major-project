@@ -6,3 +6,6 @@ body{
 .map {
   height: 400px;
 }
+#wsp-image{
+  max-width: 100px;
+}
