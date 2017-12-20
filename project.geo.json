@@ -25,7 +25,7 @@
         "name":"Washington Square",
         "html":"Washington Square",
         "tab":"washington-square",
-        "marker":"'contentsss' + <img src='images/wsp.jpeg' id= 'wsp-image'>",
+        "marker":"'contentsss' <img src='images/wsp.jpeg' id= 'wsp-image'>",
         "wikipedia":"https://en.wikipedia.org/wiki/Washington_Square_Park"
       }
     },
