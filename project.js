@@ -6,7 +6,12 @@ $.ajax({
     let html;
     html = md.render(markdown);
     $("#content").html(html);
-  }
+    $("#content").html(function(_, oldHtml){
+    let newHtml;
+    newHtml = oldHtml.replace(/Charles Street/g, "<a href='#' data-place='charles-street'>Charles Street</a>");
+    return newHtml;
+  });
+}
 });
 
 let map, tileLayer;
@@ -21,7 +26,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
 map.setView([40.73084, -73.99745], 14.5);
 
 $.getJSON("https://ajw547.github.io/javascripting-english-major-project/project.geo.json", function(data){
-let projectLayer, projectFeatures;
+let projectLayer, projectFeatures, markerOnClick;
 projectFeatures = data.features.map(function(feature){
   return{
     name:feature.properties.name,
@@ -47,11 +52,15 @@ projectFeatures = data.features.map(function(feature){
     // Create circle markers.
     return L.marker(feature.latLng, {
       // Use square root because circle areas are proportional to r^2.
-      //radius: 10,
+      //radius: 20,
       //color: "#d33682",
-      //fillColor: "#d33682"
+    //fillColor: "#d33682"
       // attach popupContent to the circleMarker as the popup.
-    });//.bindPopup(popupContent);
+    }).on("click", markerOnClick);
+  function markerOnClick()
+  {
+    $("#markercontent").html(feature.properties.marker);
+  }
   }));
   projectLayer.addTo(map);
 });
