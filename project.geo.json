@@ -56,43 +56,30 @@
       }
     },
     {"type":"Feature",
-      "geometry":{
-        "type":"Point",
-      "coordinates":[]
+    "geometry":{
+      "type":"Point",
+      "coordinates":[-74.00041,40.73025]
+      },
+      "properties":{
+        "name":"Caffe Reggio",
+        "html":"Caffe Reggio",
+        "tab":"caffe-reggio",
+        "marker":"This is Caffe Reggio.",
+        "wikipedia":""
+      }
     },
+    {"type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[-74.00114, 40.73025]
+      },
     "properties":{
-      "name":"White Horse Tavern",
-      "html":"White Horse Tavern",
-      "tab":"white-horse-tavern",
-      "marker":"This is the White Horse Tavern.",
+      "name":"Minetta Tavern",
+      "html":"Minetta Tavern",
+      "tab":"minetta-tavern",
+      "marker":"This is Minetta Tavern.",
       "wikipedia":""
+      }
     }
-  },
-  {"type":"Feature",
-  "geometry":{
-    "type":"Point",
-    "coordinates":[-74.00068,40.73001]
-    },
-  "properties":{
-    "name":"Minetta Tavern",
-    "html":"Minetta Tavern",
-    "tab":"minetta-tavern",
-    "marker":"This is the Minetta Tavern.",
-    "wikipedia":""
-    }
-  },
-  {"type":"Feature",
-  "geometry":{
-    "type":"Point",
-    "coordinates":[-74.00041, 40.73025]
-  },
-  "properties":{
-    "name":"Caffe Reggio",
-    "html":"Caffe Reggio",
-    "tab":"caffe-reggio",
-    "marker":"This is Caffe Reggio.",
-    "wikipedia":""
-  }
-  }
 ]
 }
