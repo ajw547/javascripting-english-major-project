@@ -11,15 +11,15 @@ body{
 }
 #markercontent{
   background-color:Snow;
-  border-radius:50px;
+  border-radius:25px;
   padding-left:20px;
   width:100px;
 }
 #content{
   background-color:Snow;
-  border-radius:50px;
+  border-radius:25px;
   padding-left:20px;
-  width:1240px;
+  width:1130px;
 }
 #header{
   background-color:MistyRose;

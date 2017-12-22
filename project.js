@@ -1,17 +1,15 @@
 let md;
 md = window.markdownit({html: true}).use(window.markdownitFootnote);
+// Load the Markdown file with jQuery.
 $.ajax({
-  url: "https://ajw547.github.io/javascripting-english-major-project/greenwich-village.md",
+  url: "http://ajw547.github.io/javascripting-english-major-project/greenwich-village.md",
   success: function(markdown){
+    // Convert the Markdown to HTML.
     let html;
     html = md.render(markdown);
+    // Print the HTML to #content using jQuery.
     $("#content").html(html);
-    $("#content").html(function(_, oldHtml){
-    let newHtml;
-    newHtml = oldHtml.replace(/Charles Street/g, "<a href='#' data-place='charles-street'>Charles Street</a>");
-    return newHtml;
-  });
-}
+  }
 });
 
 let map, tileLayer;
@@ -23,7 +21,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
       maxZoom: 18
     });
     tileLayer.addTo(map);
-map.setView([40.73084, -73.99745], 14.5);
+map.setView([40.73084, -73.99745], 14);
 
 $.getJSON("https://ajw547.github.io/javascripting-english-major-project/project.geo.json", function(data){
 let projectLayer, projectFeatures, markerOnClick;
@@ -67,4 +65,6 @@ projectFeatures = data.features.map(function(feature){
 });
 
 let westVillageBounds, wVBPolyline;
-westVillageBounds= []
+westVillageBounds= [[40.73484,-73.99077],[40.73171,-73.99144],[40.72590,-73.99757],[40.72835,-74.00279],[40.72911,-74.01054],[40.73934,-74.00961],[40.74064,-74.00884],[40.74228,-74.00867],[40.73484,-73.99086]];
+wVBPolyline=L.polyline(westVillageBounds, {color: "#10ECA3"}
+).addTo(map);
