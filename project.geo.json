@@ -80,6 +80,19 @@
     "marker":"This is the Minetta Tavern.",
     "wikipedia":""
     }
+  },
+  {"type":"Feature",
+  "geometry":{
+    "type":"Point",
+    "coordinates":[-74.00037,40.73023]
+  },
+  "properties":{
+    "name":"Caffe Reggio",
+    "html":"Caffe Reggio",
+    "tab":"caffe-reggio",
+    "marker":"This is Caffe Reggio.",
+    "wikipedia":""
+    }
   }
 ]
 }
