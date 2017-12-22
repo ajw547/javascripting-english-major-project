@@ -58,7 +58,7 @@
     {"type":"Feature",
       "geometry":{
         "type":"Point",
-      "coordinates":[-74.00619, 40.73570]
+      "coordinates":[]
     },
     "properties":{
       "name":"White Horse Tavern",
@@ -84,7 +84,7 @@
   {"type":"Feature",
   "geometry":{
     "type":"Point",
-    "coordinates":[]
+    "coordinates":[-74.00037,40.73023]
   },
   "properties":{
     "name":"Caffe Reggio",
