@@ -65,3 +65,6 @@ projectFeatures = data.features.map(function(feature){
   }));
   projectLayer.addTo(map);
 });
+
+let westVillageBounds, wVBPolyline;
+westVillageBounds= []

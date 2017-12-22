@@ -9,3 +9,18 @@ body{
 #wsp-image{
   max-width: 300px;
 }
+#markercontent{
+  background-color:Snow;
+  border-radius:50px;
+  padding-left:20px;
+  width:100px;
+}
+#content{
+  background-color:Snow;
+  border-radius:50px;
+  padding-left:20px;
+  width:1240px;
+}
+#header{
+  background-color:MistyRose;
+}
