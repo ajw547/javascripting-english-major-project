@@ -25,9 +25,7 @@
         "name":"Washington Square",
         "html":"Washington Square",
         "tab":"washington-square",
-        "marker":"Perhaps one of the most iconic sites for the cultural movements of the past, Washington Square began as a burial ground for the city's poor and criminal. The park was built in 1826, but remnants of its shadowy history can be seen to this day. One such piece of the past, the city's oldest living tree known as the Hangman's Elm, looms over the Northeast Corner of the park. As its name suggests, this tree is said to be the site where the city's condemned were executed by hanging. For many decades, the square was an alcove amidst the city’s finer, richer neighborhoods.
-
-        Then, in 1917, a group of artists and friends that included painters, John Sloan and Marcel Duchamps, climbed to the top of the Washington Square Arch to proclaim succession from the United States and declare Greenwich Village an “independent republic”. Although mentioned only briefly in the opening chapters of The Unpossessed (),  through Tess Slesinger’s days and many decades after, the square became a repository for the otherwise “taboo”, the heart of a neighborhood known as a hub for the city’s (and the nation’s) cultural movements.  <img src='images/1935wsp.jpg' id= 'wsp-image'>",
+        "marker":"Perhaps one of the most iconic sites for the cultural movements of the past, Washington Square began as a burial ground for the city's poor and criminal. The park was built in 1826, but remnants of its shadowy history can be seen to this day. One such piece of the past, the city's oldest living tree known as the Hangman's Elm, looms over the Northeast Corner of the park. As its name suggests, this tree is said to be the site where the city's condemned were executed by hanging. In Tess Slesinger's days, however, and for many decades after, the square became a hub for the city's (and the nation's) cultural movements. <img src='images/1935wsp.jpg' id= 'wsp-image'>",
         "wikipedia":"https://en.wikipedia.org/wiki/Washington_Square_Park"
       }
     },
@@ -57,6 +55,19 @@
         "wikipedia":"https://en.wikipedia.org/wiki/List_of_numbered_streets_in_Manhattan#10th_to_13th_Streets"
       }
     },
+    {"type":"Feature",
+      "geometry":{
+        "type":"Point",
+      "coordinates":[-74.00619, 40.73570]
+    },
+    "properties":{
+      "name":"White Horse Tavern",
+      "html":"White Horse Tavern",
+      "tab":"white-horse-tavern",
+      "marker":"This is the White Horse Tavern.",
+      "wikipedia":""
+    }
+  },
   {"type":"Feature",
   "geometry":{
     "type":"Point",
@@ -81,7 +92,7 @@
     "tab":"caffe-reggio",
     "marker":"This is Caffe Reggio.",
     "wikipedia":""
-    }
+  }
   }
 ]
 }
