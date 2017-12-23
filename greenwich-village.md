@@ -8,11 +8,4 @@ Slesinger’s first publication came in 1932, the year she and Solow divorced, a
 
 Greenwich Village, and the city of New York by extension, just happens to be the setting of all this intellectual milieu. However, as New York Review of Books founder Elizabeth Hardwick writes in her introduction to a 2002 edition of The Unpossessed, “The inchoate, irrational, addictive metropolis, ever clamoring, brawling between its two somehow sluggish rivers, is a challenge to its citizens and to the novelist’s art” (). So, maybe nothing on the surface really has to do with New York… but in a greater sense, everything has to do with New York, just by virtue of it being there.
 
-If New York City is “a nest of enclaves in the surrounding smother” () as Hardwick writes, Greenwich Village is home to some of the most isolated of these enclaves. Originally a little country hamlet, long before the city had expanded its reaches upward, the Village was spared from the grid pattern of the rest of Manhattan. The twisting, somewhat confusing 18th century street pattern is at once peaceful and disorienting. It is utterly unintuitive, for example, to someone used to the usual grid, that West 4th Street and West 12th Streets intersect, when it seems that they ought to be parallel instead.
-Perhaps it is because of this unfamiliarity and seclusion that many of the city’s cultural movements began here. Is it just, as some might say, the magic of the Village? Or does the geography simply lend itself to the cultivation of ideas?
-
-Maybe. Another question we might ask, and it is one that Tess Slesinger asked as well, is that even if it does lend itself to these intellectual and creative emergences, is it a neighborhood that aids in the spreading of these ideas? Or does it, in fact, hinder them?
-
-As she writes in the opening chapter of her novel, ‘[is] there progress? [is] there change?’
-
 Click through the map below to explore Tess Slesinger’s Greenwich Village and learn more about the world of The Unpossessed.
