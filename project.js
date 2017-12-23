@@ -59,7 +59,16 @@ projectFeatures = data.features.map(function(feature){
     }).on("click", markerOnClick);
   function markerOnClick()
   {
-    $("#markercontent").html(feature.marker);
+    $.ajax({
+      url: "http://ajw547.github.io/javascripting-english-major-project/tenth-street.md",
+      success: function(markdown){
+        // Convert the Markdown to HTML.
+        let html;
+        html = md.render(markdown);
+        // Print the HTML to #content using jQuery.
+        $("#markercontent").html(html);
+      }
+    });
   }
   }));
   projectLayer.addTo(map);
