@@ -68,3 +68,14 @@ let westVillageBounds, wVBPolyline;
 westVillageBounds= [[40.73484,-73.99077],[40.73171,-73.99144],[40.72590,-73.99757],[40.72835,-74.00279],[40.72911,-74.01054],[40.73934,-74.00961],[40.74064,-74.00884],[40.74228,-74.00867],[40.73484,-73.99086]];
 wVBPolyline=L.polyline(westVillageBounds, {color: "#10ECA3"}
 ).addTo(map);
+
+$.ajax({
+  url: "http://ajw547.github.io/javascripting-english-major-project/greenwich-village.md",
+  success: function(markdown){
+    // Convert the Markdown to HTML.
+    let html;
+    html = md.render(markdown);
+    // Print the HTML to #content using jQuery.
+    $("#content").html(html);
+  }
+});
