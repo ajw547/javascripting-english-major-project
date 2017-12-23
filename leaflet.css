@@ -5,6 +5,7 @@ body{
 }
 .map {
   height: 400px;
+  margin-top:20px;
 }
 #wsp-image{
   max-width: 300px;
@@ -14,12 +15,14 @@ body{
   border-radius:25px;
   padding-left:20px;
   width:100px;
+  margin-top:20px;
 }
 #content{
   background-color:Snow;
   border-radius:25px;
   padding-left:20px;
   width:1130px;
+  margin-top:25px;
 }
 #header{
   background-color:MistyRose;
@@ -29,4 +32,5 @@ body{
   border-radius:25px;
   padding-left:20px;
   width:1130px;
+  margin-top:25px;
 }
