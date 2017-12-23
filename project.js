@@ -31,7 +31,6 @@ projectFeatures = data.features.map(function(feature){
     html:feature.properties.html,
     tab:feature.properties.tab,
     marker:feature.properties.marker,
-    image:feature.properties.image,
     wikipedia:feature.properties.wikipedia,
     latLng:L.latLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0])
   };
@@ -59,16 +58,7 @@ projectFeatures = data.features.map(function(feature){
     }).on("click", markerOnClick);
   function markerOnClick()
   {
-    $.ajax({
-      url: "http://ajw547.github.io/javascripting-english-major-project/tenth-street.md",
-      success: function(markdown){
-        // Convert the Markdown to HTML.
-        let html;
-        html = md.render(markdown);
-        // Print the HTML to #content using jQuery.
-        $("#markercontent").html(html);
-      }
-    });
+    $("#markercontent").html(feature.marker);
   }
   }));
   projectLayer.addTo(map);
