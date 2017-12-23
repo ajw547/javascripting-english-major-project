@@ -60,7 +60,6 @@ projectFeatures = data.features.map(function(feature){
   function markerOnClick()
   {
     $("#markercontent").html(feature.marker);
-    $("#imagecontent").append(feature.image);
   }
   }));
   projectLayer.addTo(map);
