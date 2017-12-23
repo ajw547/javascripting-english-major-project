@@ -70,12 +70,12 @@ wVBPolyline=L.polyline(westVillageBounds, {color: "#10ECA3"}
 ).addTo(map);
 
 $.ajax({
-  url: "http://ajw547.github.io/javascripting-english-major-project/greenwich-village.md",
+  url: "http://ajw547.github.io/javascripting-english-major-project/conclusion.md",
   success: function(markdown){
     // Convert the Markdown to HTML.
     let html;
     html = md.render(markdown);
     // Print the HTML to #content using jQuery.
-    $("#content").html(html);
+    $("#conclusion").html(html);
   }
 });
