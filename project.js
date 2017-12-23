@@ -81,7 +81,7 @@ $.ajax({
 });
 
 $.ajax({
-  url: "http://ajw547.github.io/javascripting-english-major-project/conclusion.md",
+  url: "http://ajw547.github.io/javascripting-english-major-project/sources.md",
   success: function(markdown){
     // Convert the Markdown to HTML.
     let html;
