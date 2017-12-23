@@ -79,3 +79,14 @@ $.ajax({
     $("#conclusion").html(html);
   }
 });
+
+$.ajax({
+  url: "http://ajw547.github.io/javascripting-english-major-project/conclusion.md",
+  success: function(markdown){
+    // Convert the Markdown to HTML.
+    let html;
+    html = md.render(markdown);
+    // Print the HTML to #content using jQuery.
+    $("#sources").html(html);
+  }
+});
